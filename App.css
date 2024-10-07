@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9; /* Light gray background for a formal look */
+}
+
+h1, h2, h3 {
+  color: #333; /* Dark gray for headers */
+}
+
+.header {
+  background-color: #ffffff; /* White header for a clean look */
+  color: #333; /* Dark text for contrast */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd; /* Subtle border for separation */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card {
+  background-color: #ffffff; /* Keep cards white for clarity */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.card-header {
+  font-size: 1.2em; /* Slightly smaller header */
+  margin-bottom: 10px;
+  color: #333; /* Dark gray for header text */
+}
+
+.card-description {
+  color: #555; /* Medium gray for descriptions */
+  line-height: 1.4;
+}
+
+.footer {
+  background-color: #ffffff; /* White footer for consistency */
+  color: #333; /* Dark text */
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #ddd; /* Subtle border for separation */
+}
